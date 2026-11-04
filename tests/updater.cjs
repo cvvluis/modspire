@@ -30,8 +30,8 @@ const { compareVersions, parseLatestRelease, downloadVerifiedAsset, buildPortabl
   const digest = `sha256:${crypto.createHash('sha256').update(bytes).digest('hex')}`;
   const release = parseLatestRelease({
     tag_name: 'v0.2.91',
-    html_url: 'https://github.com/LvisXVI/modspire/releases/tag/v0.2.91',
-    assets: [{ name: 'Modspire-0.2.91-Portable.exe', size: bytes.length, digest, browser_download_url: 'https://github.com/LvisXVI/modspire/releases/download/v0.2.91/Modspire-0.2.91-Portable.exe' }],
+    html_url: 'https://github.com/cvvluis/modspire/releases/tag/v0.2.91',
+    assets: [{ name: 'Modspire-0.2.91-Portable.exe', size: bytes.length, digest, browser_download_url: 'https://github.com/cvvluis/modspire/releases/download/v0.2.91/Modspire-0.2.91-Portable.exe' }],
   });
   assert.equal(release.version, '0.2.91');
   assert.equal(release.asset.name, 'Modspire-0.2.91-Portable.exe');

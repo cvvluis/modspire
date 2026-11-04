@@ -4,7 +4,7 @@
 
 ## Source and builds
 
-The runtime under `integrations/mod-studio` is an explicit snapshot of `server/`, `public/`, `licenses/` and `package.json` from [Minecraft Mod Studio](https://github.com/LvisXVI/minecraft-mod-studio). `manifest.json` records the base source revision and SHA-256 of each included file; the file hashes include any local integration fixes. Project data, tokens, `.env`, generated builds and the simulated `docs/demo` are never included.
+The runtime under `integrations/mod-studio` is an explicit snapshot of `server/`, `public/`, `licenses/` and `package.json` from [Minecraft Mod Studio](https://github.com/cvvluis/minecraft-mod-studio). `manifest.json` records the base source revision and SHA-256 of each included file; the file hashes include any local integration fixes. Project data, tokens, `.env`, generated builds and the simulated `docs/demo` are never included.
 
 To refresh the snapshot and stage its two build archives:
 

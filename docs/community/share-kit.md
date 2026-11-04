@@ -4,20 +4,20 @@ Use these factual starting points for a personal introduction. Check the destina
 
 ## Links
 
-- Live preview and sample demo: https://lvisxvi.github.io/modspire/
-- Windows portable download: https://github.com/LvisXVI/modspire/releases/latest
-- Source: https://github.com/LvisXVI/modspire
-- Feedback: https://github.com/LvisXVI/modspire/discussions
-- Actual app tour: https://lvisxvi.github.io/modspire/#tour
-- Screenshot: https://raw.githubusercontent.com/LvisXVI/modspire/main/docs/screenshots/rounded/modrinth-search-and-selection.png
+- Live preview and sample demo: https://cvvluis.github.io/modspire/
+- Windows portable download: https://github.com/cvvluis/modspire/releases/latest
+- Source: https://github.com/cvvluis/modspire
+- Feedback: https://github.com/cvvluis/modspire/discussions
+- Actual app tour: https://cvvluis.github.io/modspire/#tour
+- Screenshot: https://raw.githubusercontent.com/cvvluis/modspire/main/docs/screenshots/rounded/modrinth-search-and-selection.png
 
 ## Latest update — 0.2.98 (2026-10-19)
 
-Release: https://github.com/LvisXVI/modspire/releases/tag/v0.2.98
+Release: https://github.com/cvvluis/modspire/releases/tag/v0.2.98
 
-**English:** Modspire 0.2.98 makes pack editing easier to recover: undo/redo your selection, name saved pack variants, and copy mod lists with project links. Direct Modrinth search needs no AI account. Windows portable download and sample browser demo: https://lvisxvi.github.io/modspire/
+**English:** Modspire 0.2.98 makes pack editing easier to recover: undo/redo your selection, name saved pack variants, and copy mod lists with project links. Direct Modrinth search needs no AI account. Windows portable download and sample browser demo: https://cvvluis.github.io/modspire/
 
-**Deutsch:** Modspire 0.2.98 ist da: Modauswahl rückgängig machen, Pack-Varianten benennen und Modlisten mit Links teilen. Die Modrinth-Suche braucht keinen KI-Account. Portable Windows-App und Browser-Demo: https://lvisxvi.github.io/modspire/
+**Deutsch:** Modspire 0.2.98 ist da: Modauswahl rückgängig machen, Pack-Varianten benennen und Modlisten mit Links teilen. Die Modrinth-Suche braucht keinen KI-Account. Portable Windows-App und Browser-Demo: https://cvvluis.github.io/modspire/
 
 The public browser demo remains sample-based and does not demonstrate every desktop feature in the new release. External Reddit/Discord/creator outreach has not been published.
 
@@ -29,7 +29,7 @@ Modspire is a Windows desktop tool for finding mods and organizing pack ideas. P
 
 It also includes pack inspection, crash-log explanations, import/export, four UI layouts and a local browser view. It is still a community test project: it does not install a loader or prove that a pack launches, and crash diagnoses need checking against the actual log. The source is available; original code is MIT, while a bundled sign-in component has separate noncommercial terms. AI tools have been used in development and promotional materials.
 
-There is a browser demo with clearly marked sample data, so you can look around before downloading: https://lvisxvi.github.io/modspire/
+There is a browser demo with clearly marked sample data, so you can look around before downloading: https://cvvluis.github.io/modspire/
 
 Feedback on catalog search, pack selection and confusing UI would be especially useful. Which part of planning a pack takes you the most time?
 
@@ -41,13 +41,13 @@ Mit Modspire kannst du auf Windows Mods über Modrinth suchen und eigene Pack-Pr
 
 Dazu kommen Pack-Analyse, Hinweise zu Crash-Logs, Import/Export, vier Oberflächen und eine lokale Browseransicht. Es ist noch ein Testprojekt: Es installiert keinen Loader und garantiert nicht, dass ein Pack startet. Der Quellcode ist einsehbar; eigener Code steht unter MIT, eine mitgelieferte Anmeldekomponente hat gesonderte nichtkommerzielle Bedingungen. Bei Entwicklung und Werbematerial wurden KI-Werkzeuge eingesetzt.
 
-Hier kannst du zuerst die Demo mit Beispieldaten ausprobieren: https://lvisxvi.github.io/modspire/
+Hier kannst du zuerst die Demo mit Beispieldaten ausprobieren: https://cvvluis.github.io/modspire/
 
 Mich interessiert besonders, was bei Suche und Mod-Auswahl noch unklar oder umständlich ist.
 
 ## Short caption
 
-Plan your next Minecraft Java pack with Modspire: direct Modrinth search, separate pack projects and optional AI help. Windows portable app + browser demo. Community test build: https://lvisxvi.github.io/modspire/
+Plan your next Minecraft Java pack with Modspire: direct Modrinth search, separate pack projects and optional AI help. Windows portable app + browser demo. Community test build: https://cvvluis.github.io/modspire/
 
 ## 25-second real-app walkthrough
 

@@ -4,7 +4,7 @@ const path = require('node:path');
 const { Readable } = require('node:stream');
 const { pipeline } = require('node:stream/promises');
 
-const REPOSITORY = 'LvisXVI/modspire';
+const REPOSITORY = 'cvvluis/modspire';
 const RELEASE_API = `https://api.github.com/repos/${REPOSITORY}/releases/latest`;
 const RELEASE_ASSET_HOSTS = new Set(['github.com', 'release-assets.githubusercontent.com', 'objects.githubusercontent.com']);
 
@@ -27,7 +27,7 @@ function parseLatestRelease(release) {
   if (!asset || !Number.isSafeInteger(asset.size) || asset.size <= 0) throw new Error('Im aktuellen Release fehlt die portable Windows-Datei.');
   if (!/^sha256:[a-f0-9]{64}$/i.test(asset.digest || '')) throw new Error('GitHub stellt für diese EXE keinen überprüfbaren SHA-256-Prüfwert bereit.');
   const url = new URL(asset.browser_download_url);
-  if (url.protocol !== 'https:' || url.hostname !== 'github.com' || !url.pathname.includes(`/LvisXVI/modspire/releases/download/v${version}/`) || !url.pathname.endsWith(`/${assetName}`)) throw new Error('Die Download-Adresse gehört nicht zum erwarteten GitHub-Release.');
+  if (url.protocol !== 'https:' || url.hostname !== 'github.com' || !url.pathname.includes(`/cvvluis/modspire/releases/download/v${version}/`) || !url.pathname.endsWith(`/${assetName}`)) throw new Error('Die Download-Adresse gehört nicht zum erwarteten GitHub-Release.');
   return { version, name: String(release.name || `Modspire ${version}`), url: release.html_url, asset: { name: assetName, size: asset.size, digest: asset.digest.toLowerCase(), url: url.href } };
 }
 

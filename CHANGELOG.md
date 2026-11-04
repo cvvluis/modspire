@@ -250,7 +250,7 @@ For the retrospective history from the first local build and a consolidated feat
 - Added a concise promotional video assembled from the current app recording, plus the full real app preview as release media.
 
 ### Changed
-- Renamed the GitHub project to `LvisXVI/modspire` and updated repository links and product metadata.
+- Renamed the GitHub project to `cvvluis/modspire` and updated repository links and product metadata.
 - Kept the existing Windows app-data location and project export format so existing installs and saved packs remain compatible.
 
 ## [0.2.87] - 2026-10-14

@@ -4,11 +4,11 @@ Thanks for trying Modspire. Useful contributions include reproducible bug report
 
 ## Try the app
 
-Download the Windows portable build from [Releases](https://github.com/LvisXVI/modspire/releases/latest), or try the [browser demo](https://lvisxvi.github.io/modspire/#demo). The demo uses sample data; the desktop app performs actual catalog lookups.
+Download the Windows portable build from [Releases](https://github.com/cvvluis/modspire/releases/latest), or try the [browser demo](https://cvvluis.github.io/modspire/#demo). The demo uses sample data; the desktop app performs actual catalog lookups.
 
 A useful first test: choose a Minecraft version and loader, search the catalog, switch list/cards, add and remove a mod, switch UI/theme, and reopen your project. Report the version and exact steps if anything fails.
 
-Use [Issues](https://github.com/LvisXVI/modspire/issues) for bugs and [Discussions](https://github.com/LvisXVI/modspire/discussions) for questions and ideas. Do not post credentials or private logs.
+Use [Issues](https://github.com/cvvluis/modspire/issues) for bugs and [Discussions](https://github.com/cvvluis/modspire/discussions) for questions and ideas. Do not post credentials or private logs.
 
 ## Work on the source
 

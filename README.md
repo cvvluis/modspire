@@ -4,16 +4,16 @@
   <h1>Modspire</h1>
   <p><strong>Your Minecraft Java modpack studio.</strong><br>Search Modrinth, shape an idea, compare pack variants and export an installable <code>.mrpack</code>. Local-first. AI optional.</p>
   <p>
-    <a href="https://github.com/LvisXVI/modspire/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/LvisXVI/modspire?label=release&color=7ff0e4&style=flat-square"></a>
+    <a href="https://github.com/cvvluis/modspire/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/cvvluis/modspire?label=release&color=7ff0e4&style=flat-square"></a>
     <img alt="Windows" src="https://img.shields.io/badge/platform-Windows%2010%20%2F%2011-15263a?logo=windows&logoColor=white&style=flat-square">
     <img alt="Five layouts" src="https://img.shields.io/badge/UI-5%20layouts%20·%209%20themes-a98bff?style=flat-square">
     <a href="docs/wiki/README.md"><img alt="Wiki" src="https://img.shields.io/badge/docs-wiki-1c3b50?style=flat-square"></a>
   </p>
   <p>
-    <a href="https://lvisxvi.github.io/modspire/">🌐 Website</a> ·
-    <a href="https://lvisxvi.github.io/modspire/demo/#demo">🧪 Browser demo</a> ·
-    <a href="https://github.com/LvisXVI/modspire/releases/latest">⬇️ Download for Windows</a> ·
-    <a href="https://github.com/LvisXVI/modspire/discussions">💬 Feedback</a>
+    <a href="https://cvvluis.github.io/modspire/">🌐 Website</a> ·
+    <a href="https://cvvluis.github.io/modspire/demo/#demo">🧪 Browser demo</a> ·
+    <a href="https://github.com/cvvluis/modspire/releases/latest">⬇️ Download for Windows</a> ·
+    <a href="https://github.com/cvvluis/modspire/discussions">💬 Feedback</a>
   </p>
 </div>
 
@@ -58,7 +58,7 @@
 
 ## 🚀 Get started
 
-Download the portable build from [Releases](https://github.com/LvisXVI/modspire/releases/latest) and double-click it. The first launch asks for a local display name (not an account).
+Download the portable build from [Releases](https://github.com/cvvluis/modspire/releases/latest) and double-click it. The first launch asks for a local display name (not an account).
 
 From source on Windows 10/11 with Node.js 22+ and pnpm:
 
@@ -79,11 +79,11 @@ Mod search works without AI. Credentials are stored by the desktop service and e
 
 [Getting started](docs/wiki/getting-started.md) · [Mod search](docs/wiki/mod-search.md) · [Interfaces & designs](docs/wiki/interfaces-and-designs.md) · [Mod Studio integration](docs/mod-studio-integration.md) · [Troubleshooting](docs/wiki/troubleshooting-development.md) · [Patch log](docs/wiki/patch-log.md) · [Changelog](CHANGELOG.md)
 
-Found something confusing? [Report a bug](https://github.com/LvisXVI/modspire/issues/new?template=bug_report.yml) with your version, layout/theme, what you expected and what happened. Want to help? See [CONTRIBUTING.md](CONTRIBUTING.md).
+Found something confusing? [Report a bug](https://github.com/cvvluis/modspire/issues/new?template=bug_report.yml) with your version, layout/theme, what you expected and what happened. Want to help? See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## 🌐 The project family
 
-**Modspire** plans modpacks, [Mod Studio](https://github.com/LvisXVI/minecraft-mod-studio) builds mods, [Minecraft Host](https://github.com/LvisXVI/minecraft-host) runs the server for your friends. Every website has a switcher at the top to jump between them.
+**Modspire** plans modpacks, [Mod Studio](https://github.com/cvvluis/minecraft-mod-studio) builds mods, [Minecraft Host](https://github.com/cvvluis/minecraft-host) runs the server for your friends. Every website has a switcher at the top to jump between them.
 
 ## ⚖️ Licensing
 

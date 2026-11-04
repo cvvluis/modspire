@@ -9,7 +9,7 @@ import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 
 const execFileAsync = promisify(execFile);
-const RELEASES_API = 'https://api.github.com/repos/LvisXVI/minecraft-mod-studio/releases?per_page=30';
+const RELEASES_API = 'https://api.github.com/repos/cvvluis/minecraft-mod-studio/releases?per_page=30';
 const INSTALLER_NAME = 'Mod-Studio-Setup.exe';
 const CHECKSUMS_NAME = 'SHA256SUMS.txt';
 const MAX_INSTALLER_BYTES = 1_000_000_000;
@@ -47,7 +47,7 @@ export function createUpdateService({ currentVersion, fetchImpl = fetch, downloa
       .sort((a, b) => compareVersions(normalizeVersion(b.tag_name), normalizeVersion(a.tag_name)));
     const release = candidates[0];
     if (!release) throw new Error('Es wurde noch keine gültige Mod-Studio-Version veröffentlicht.');
-    if (!/^https:\/\/github\.com\/LvisXVI\/minecraft-mod-studio\/releases\/tag\/[A-Za-z0-9._-]+$/.test(release.html_url || '')) {
+    if (!/^https:\/\/github\.com\/cvvluis\/minecraft-mod-studio\/releases\/tag\/[A-Za-z0-9._-]+$/.test(release.html_url || '')) {
       throw new Error('Der Release-Link ist ungültig.');
     }
     const assets = Array.isArray(release.assets) ? release.assets : [];

@@ -34,7 +34,7 @@ const { RUNTIMES, sha256 } = require('../mod-studio-runtime.cjs');
     await fs.copyFile(from, path.join(archiveDirectory, runtime.archive));
   }
   const revision = execFileSync('git', ['rev-parse', 'HEAD'], { cwd: source, encoding: 'utf8', windowsHide: true }).trim();
-  const manifest = { source: 'https://github.com/LvisXVI/minecraft-mod-studio', version: pkg.version, sourceRevision: revision, files: files.sort((a,b) => a.path.localeCompare(b.path)) };
+  const manifest = { source: 'https://github.com/cvvluis/minecraft-mod-studio', version: pkg.version, sourceRevision: revision, files: files.sort((a,b) => a.path.localeCompare(b.path)) };
   await fs.writeFile(path.join(destination, 'manifest.json'), JSON.stringify(manifest, null, 2)+'\n');
   console.log(`Synced real Mod Studio ${pkg.version}: ${files.length} files and verified JDK/Gradle archives.`);
 })().catch(error => { console.error(error.message); process.exitCode = 1; });

@@ -123,6 +123,6 @@ Modspire plans packs, searches catalog metadata, and organizes selections. It do
 
 ## Sources
 
-- [Public GitHub releases](https://github.com/LvisXVI/modspire/releases)
+- [Public GitHub releases](https://github.com/cvvluis/modspire/releases)
 - [Current source changelog](../../CHANGELOG.md)
 - [Project README and current feature list](../../README.md)

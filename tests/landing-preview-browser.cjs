@@ -20,7 +20,7 @@ const { chromium } = require('playwright');
       await page.waitForFunction(() => !document.getElementById('lg-intro'), null, { timeout: 4000 });
       const meta = await page.locator('script[type="application/ld+json"]').textContent().then(JSON.parse);
       assert.match(meta.softwareVersion, /^\d+\.\d+\.\d+$/, 'structured data names a concrete version');
-      assert.match(await page.locator('[data-release-download]').first().getAttribute('href'), /^https:\/\/github\.com\/LvisXVI\/modspire\/releases\//, 'download goes to GitHub releases');
+      assert.match(await page.locator('[data-release-download]').first().getAttribute('href'), /^https:\/\/github\.com\/cvvluis\/modspire\/releases\//, 'download goes to GitHub releases');
       assert.equal(await page.locator('a[href="demo/#demo"]').count() > 0, true, 'the interactive demo stays reachable');
       assert.equal(await page.locator('.switch a[aria-current="page"]').textContent(), 'Modspire');
       const tabs = page.locator('[data-showcase] [role="tab"]');
